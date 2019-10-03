@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les01/Les01.csproj": {}
+  },
+  "projects": {
+    "/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les01/Les01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les01/Les01.csproj",
+        "projectName": "Les01",
+        "projectPath": "/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les01/Les01.csproj",
+        "packagesPath": "/Users/yentel/.nuget/packages/",
+        "outputPath": "/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les01/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yentel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
