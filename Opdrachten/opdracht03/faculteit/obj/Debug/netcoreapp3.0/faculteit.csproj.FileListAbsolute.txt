@@ -1,0 +1,11 @@
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/bin/Debug/netcoreapp3.0/faculteit
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/bin/Debug/netcoreapp3.0/faculteit.deps.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/bin/Debug/netcoreapp3.0/faculteit.runtimeconfig.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/bin/Debug/netcoreapp3.0/faculteit.runtimeconfig.dev.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/bin/Debug/netcoreapp3.0/faculteit.dll
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/bin/Debug/netcoreapp3.0/faculteit.pdb
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/obj/Debug/netcoreapp3.0/faculteit.csprojAssemblyReference.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/obj/Debug/netcoreapp3.0/faculteit.AssemblyInfoInputs.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/obj/Debug/netcoreapp3.0/faculteit.AssemblyInfo.cs
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/obj/Debug/netcoreapp3.0/faculteit.dll
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/faculteit/obj/Debug/netcoreapp3.0/faculteit.pdb

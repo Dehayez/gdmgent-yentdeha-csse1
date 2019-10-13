@@ -1,0 +1,11 @@
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/bin/Debug/netcoreapp3.0/fibbonacci
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/bin/Debug/netcoreapp3.0/fibbonacci.deps.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/bin/Debug/netcoreapp3.0/fibbonacci.runtimeconfig.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/bin/Debug/netcoreapp3.0/fibbonacci.runtimeconfig.dev.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/bin/Debug/netcoreapp3.0/fibbonacci.dll
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/bin/Debug/netcoreapp3.0/fibbonacci.pdb
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/obj/Debug/netcoreapp3.0/fibbonacci.csprojAssemblyReference.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/obj/Debug/netcoreapp3.0/fibbonacci.AssemblyInfoInputs.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/obj/Debug/netcoreapp3.0/fibbonacci.AssemblyInfo.cs
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/obj/Debug/netcoreapp3.0/fibbonacci.dll
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Opdrachten/opdracht03/fibbonacci/obj/Debug/netcoreapp3.0/fibbonacci.pdb
