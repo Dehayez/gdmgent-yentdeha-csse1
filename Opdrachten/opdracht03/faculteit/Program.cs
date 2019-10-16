@@ -6,23 +6,27 @@ namespace faculteit
     {
         static void Main(string[] args)
         {
-            Program program = new Program();
             
-            // Faculteit.
             Console.WriteLine("Geef een getal in:");
-            int getal = Convert.ToInt32(Console.ReadLine());
-            program.Faculteit(getal);
+            
+            int n_fac = int.Parse(Console.ReadLine());
 
+            for (int i_fac = 0; i_fac < n_fac; i_fac++)  
+            {  
+            Console.Write(faculteit(i_fac) +" ");  
+            } 
+          
+            Console.Write("\n");
         }
-        void Faculteit(int getal) {
-            int fac = getal;
 
-            while(getal > 2) {
-                getal--;
-                fac *= getal;
-            }
+        static int faculteit (int facu){
+        int result = facu;
+        for(int i = facu-1; i > 1; i--)
+        {
+           result = result * i;
+        }
 
-            Console.WriteLine(fac);
+        return result;
         }
     }
 }
