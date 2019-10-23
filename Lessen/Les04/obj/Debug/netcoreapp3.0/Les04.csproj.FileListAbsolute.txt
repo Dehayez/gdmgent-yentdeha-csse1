@@ -1,0 +1,11 @@
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/bin/Debug/netcoreapp3.0/Les04
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/bin/Debug/netcoreapp3.0/Les04.deps.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/bin/Debug/netcoreapp3.0/Les04.runtimeconfig.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/bin/Debug/netcoreapp3.0/Les04.runtimeconfig.dev.json
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/bin/Debug/netcoreapp3.0/Les04.dll
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/bin/Debug/netcoreapp3.0/Les04.pdb
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/obj/Debug/netcoreapp3.0/Les04.csprojAssemblyReference.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/obj/Debug/netcoreapp3.0/Les04.AssemblyInfoInputs.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/obj/Debug/netcoreapp3.0/Les04.AssemblyInfo.cs
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/obj/Debug/netcoreapp3.0/Les04.dll
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les04/obj/Debug/netcoreapp3.0/Les04.pdb
