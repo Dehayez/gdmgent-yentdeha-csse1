@@ -7,12 +7,12 @@ namespace Opdracht04
         static void Main(string[] args)
         {
 
-            double rekenmachine(double getal1, double getal2) 
+            int rekenmachine(int getal1, int getal2) 
             {
-                double optellen = getal1 + getal2;
-                double aftrekken = getal1 - getal2;
-                double delen = getal1 / getal2;
-                double vermenigvuldigen = getal1 * getal2;
+                int optellen = getal1 + getal2;
+                int aftrekken = getal1 - getal2;
+                int delen = getal1 / getal2;
+                int vermenigvuldigen = getal1 * getal2;
 
                 Console.WriteLine(getal1 + " + " + getal2 + " = " + optellen);
                 Console.WriteLine(getal1 + " - " + getal2 + " = " + aftrekken);
