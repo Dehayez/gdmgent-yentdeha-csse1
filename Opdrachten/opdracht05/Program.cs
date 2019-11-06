@@ -5,7 +5,7 @@ namespace opdracht05
 {
     class Program
     {
-        static int Som(int getal1, int getal2){
+       static int Som(int getal1, int getal2){
             return getal1 + getal2;
         }
 
@@ -85,7 +85,7 @@ namespace opdracht05
                 myArray[iter] = rn;
                 SchrijfLog(rn);
                 iter++;
-                Thread.Sleep(2000);
+                Thread.Sleep(1000);
             }
         }
 
@@ -147,14 +147,14 @@ namespace opdracht05
                 for (int j = 0; j < 15; j++)
                 {
                 Console.Write(WillekeurigGetal(1,50));
-                Thread.Sleep(100);
+                Thread.Sleep(50);
                 Console.Write("\b \b");
                 Console.Write("\b \b");
                 }
                 nArray[iter] = rn;
                 SchrijfLog(rn);
                 iter++;
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
             }
             iter = 0;
             SchrijfLog("De sterren zijn: ");
@@ -178,15 +178,78 @@ namespace opdracht05
                 sArray[iter] = rn;
                 SchrijfLog(rn);
                 iter++;
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
             }
         }
 
-        
-        
-        // Genereer account
-        // IBAN Checker
-        // Faculteit en Fibonnaci
+        static string Fibonacci (int aantal = 12){
+            int getal1 = 1;
+            int getal2 = 0;
+            string result = getal2 + " " + getal1;            
+            for (int i = 0; i < aantal-2; i++)
+            {
+                int getal3 = getal2;
+                getal2 = getal1;
+                getal1 = getal3 + getal1;
+                result = result + " " + getal1;
+            }
+            return result;
+        }
+
+        static int Faculteit(int getal = 4){
+            int teller = 1;
+            int result= 1;
+            while (teller <= getal)
+            {   
+                result*=teller;
+                teller++;
+            }
+            return result;
+        }
+
+        static string StartString(string input, int lengte){
+                return input.Substring(0, lengte);
+        }
+
+        static string GenereerAccount(string type, string vnaam, string anaam){
+            string code =""; 
+            if (type.ToLower() == "docent")
+            {
+                string kvnaam = StartString(vnaam, 4);
+                string kanaam = StartString(anaam, 2);
+                code = kvnaam.ToLower() + kanaam.ToLower() + "@arteveldehs.be";
+            }
+            else if(type.ToLower() == "student"){
+                string kvnaam = StartString(vnaam, 4);
+                string kanaam = StartString(anaam, 4);
+                code = kvnaam.ToLower() + kanaam.ToLower() + "@student.arteveldehs.be";
+            } else
+            {
+                SchrijfLog("Foute waarden meegegeven.");
+            }
+            return code;
+        }
+
+        static string IbanChecker(string code){
+            code = code.Replace( " ", "" );
+            string land = StartString(code,2).ToLower();
+            int controleGetal = Int32.Parse(code.Substring(2, 2));
+            string temp = "";
+            foreach (char c in land)
+            {
+                temp+= (int) c - 87;
+            }
+            temp += code.Substring(2, 2);
+            long temp2 = Convert.ToInt64(code.Substring(4, code.Length-4) + temp);
+            if (code.Length != 16 || land != "be" || controleGetal < 2 || controleGetal > 98 || temp2%97 != 1)
+            {
+                return code + " is geen geldig IBAN-nummer.";
+            }else
+            {
+                return code + " is een geldig IBAN-nummer.";
+            }
+        }
+
 
         static void SchrijfLog(object output) => Console.WriteLine(output.ToString());
 
@@ -211,7 +274,17 @@ namespace opdracht05
 
             SchrijfLog("Euromillions: " + EuromillionsRooster());
             EuromillionsTrekking();
+            SchrijfLog("\n");
 
+            SchrijfLog("De Fibonacci reeks van 10 is: " + Fibonacci());
+            SchrijfLog("De faculteit van 4 is: " + Faculteit());
+            SchrijfLog("\n");
+
+            // dotnet run student Kristof Raes of dotnet run docent Kristof Raes
+            SchrijfLog(GenereerAccount(args[0], args[1], args[2]));
+            SchrijfLog("\n");
+
+            SchrijfLog(IbanChecker("BE07 7390 1412 0066"));
         }
     }
 }
