@@ -19,8 +19,8 @@ namespace Les04
             Console.WriteLine(sizeof(System.Int64).ToString());
             Console.WriteLine(System.Runtime.InteropServices.Marshal.SizeOf(new System.Boolean()));
 
-            char a = 'c';
-            a = 'b';
+            //char a = 'c';
+            //a = 'b';
             // Deze regeel wijzigt de waarde van de variabele a naar de letter b.
 
             string mijnString = "Dit is mijn eerste regel tekst...";
