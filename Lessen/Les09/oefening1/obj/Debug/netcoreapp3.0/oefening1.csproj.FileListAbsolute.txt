@@ -1,0 +1,3 @@
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les09/oefening1/obj/Debug/netcoreapp3.0/oefening1.csprojAssemblyReference.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les09/oefening1/obj/Debug/netcoreapp3.0/oefening1.AssemblyInfoInputs.cache
+/Users/yentel/Sites/CSSE/gdmgent-yentdeha-csse1/Lessen/Les09/oefening1/obj/Debug/netcoreapp3.0/oefening1.AssemblyInfo.cs
